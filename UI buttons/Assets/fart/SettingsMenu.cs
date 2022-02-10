@@ -10,12 +10,23 @@ public class SettingsMenu : MonoBehaviour {
     public AudioMixer audioMixer;
     Resolution[] resolutions;
     public Slider master, music, sfx;
+    public Toggle musicToggle;
     public TMPro.TMP_Dropdown difficultyDropdown;
 
     void Start ()
     {
         LoadPrefs();
         List<string> options = new List<string>();
+    }
+    void Update() 
+    {
+        if(musicToggle.isOn)
+        {
+            PlayerPrefs.SetInt("IsOn", 1);
+        }else
+        {
+            PlayerPrefs.SetInt("IsOn", 0);
+        }
     }
     public void SetEffectsVolume(float volume)
     {
@@ -40,7 +51,7 @@ public class SettingsMenu : MonoBehaviour {
     {
         Screen.fullScreen = isFullscreen;
     }
-        public void SetDiff (int diffIndex)
+    public void SetDiff (int diffIndex)
     {
         PlayerPrefs.SetInt("Difficulty", diffIndex);
     }
@@ -50,6 +61,17 @@ public class SettingsMenu : MonoBehaviour {
         music.value = PlayerPrefs.GetFloat("MusicVolume");
         sfx.value = PlayerPrefs.GetFloat("SFXVolume");
         difficultyDropdown.value = PlayerPrefs.GetInt("Difficulty");
+
+       bool IsOn;
+       if(PlayerPrefs.GetInt("IsOn") == 1)
+       {
+           IsOn = true;
+       }
+       else
+       {
+           IsOn = false;
+       }
+       musicToggle.isOn = IsOn;  
     }
 
 }
