@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 public class LevelManagerScript : MonoBehaviour
 {
-    public GameObject startButton;
-    
-
-    void Start()
+    public GameObject startButton, optionsButton, audioButton, quitButton;
+ 
+    void Awake()
     {
         startButton.GetComponent<Button>().Select();
+    }
+    public void Select(GameObject current)
+    {
+        current.GetComponent<Button>().Select();
     }
     public void Quit(){
         Application.Quit();

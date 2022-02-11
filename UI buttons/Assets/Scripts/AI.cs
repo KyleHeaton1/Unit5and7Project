@@ -91,8 +91,8 @@ public class AI : MonoBehaviour
         stateText = "Idle";
         anim.SetBool("isRun", false);
         anim.SetBool("isFlip", false);
-        x = Random.Range(6.02f, -4.62f);
-        z = Random.Range(6.48f, -6.48f);
+        x = Random.Range(30.02f, -30.62f);
+        z = Random.Range(20.48f, -20.48f);
         y = 0f;
         pos = new Vector3(x, y, z);
         
@@ -114,6 +114,7 @@ public class AI : MonoBehaviour
         //anim.SetBool("isRun", true);
 
         //THIS IS FOR JOKES DELETE THIS FOR LATER LOL
+        /*
         int randomNumber = Random.Range(1, 3);
         if(randomNumber == 1){
             FindObjectOfType<SoundManager>().Play("Click2");
@@ -123,7 +124,8 @@ public class AI : MonoBehaviour
             anim.SetBool("isRun", true);
             Debug.Log(randomNumber);
         }
-
+        */
+        anim.SetBool("isRun", true);
 
         print("Walk");
         stateText = "Walk";
