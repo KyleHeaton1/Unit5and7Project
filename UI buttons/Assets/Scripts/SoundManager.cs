@@ -87,7 +87,7 @@ public class SoundManager : MonoBehaviour
         m.source.Play();
     }
 
-    void Update()
+    public void Update()
     {
         foreach(Sound m in music)
         {

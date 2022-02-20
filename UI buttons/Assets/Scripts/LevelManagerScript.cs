@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelManagerScript : MonoBehaviour
 {
-    public GameObject startButton, optionsButton, audioButton, quitButton;
+    public GameObject startButton;
  
     void Awake()
     {
@@ -34,5 +35,11 @@ public class LevelManagerScript : MonoBehaviour
     }
     public void BackoutClick(){
         FindObjectOfType<SoundManager>().Play("Click4");
+    }
+    public void Load(){
+        SceneManager.LoadScene("Game");
+    }
+    public void Load2(){
+        SceneManager.LoadScene("SampleScene");
     }
 }

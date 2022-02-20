@@ -63,7 +63,7 @@ public class AI : MonoBehaviour
             if( nextStateTimer < 0 )
             {
                 state = States.Walk;
-                nextStateTimer = 1;
+                nextStateTimer = 1f;
             }
 
         }
@@ -87,14 +87,13 @@ public class AI : MonoBehaviour
     // Different AI Update methods
     void Idle()
     {
-        print("Idle");
+        
         stateText = "Idle";
         anim.SetBool("isRun", false);
-        anim.SetBool("isFlip", false);
         x = Random.Range(30.02f, -30.62f);
         z = Random.Range(20.48f, -20.48f);
         y = 0f;
-        pos = new Vector3(x, y, z);
+        pos =  new Vector3(x, y, z);
         
     }
 
@@ -127,7 +126,7 @@ public class AI : MonoBehaviour
         */
         anim.SetBool("isRun", true);
 
-        print("Walk");
+        
         stateText = "Walk";
         //transform.position = Vector3.MoveTowards(transform.position, pos, speed* Time.deltaTime);
         rb.velocity = pos;
