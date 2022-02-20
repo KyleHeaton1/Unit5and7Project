@@ -15,11 +15,11 @@ C:/Users/asda/OneDrive/Documents/GitHubtest/Unit5-7Project/UI buttons
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57567
+59192
 Successfully changed project path to: C:/Users/asda/OneDrive/Documents/GitHubtest/Unit5-7Project/UI buttons
 C:/Users/asda/OneDrive/Documents/GitHubtest/Unit5-7Project/UI buttons
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 147.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 127.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,94 +35,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002605 seconds.
+Registered in 0.002974 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 129.51 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 135.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.512 seconds
+- Completed reload, in  1.824 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1512ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (1825ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (589ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (299ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008108 seconds.
+Registered in 0.008970 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\asda\OneDrive\Documents\GitHubtest\Unit5-7Project\UI buttons\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\asda\OneDrive\Documents\GitHubtest\Unit5-7Project\UI buttons\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 135.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 131.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.830 seconds
+- Completed reload, in  1.812 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1830ms)
-		BeginReloadAssembly (194ms)
+	ReloadAssembly (1813ms)
+		BeginReloadAssembly (240ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1559ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1496ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (471ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (724ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (710ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (136ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3711 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 143.6 MB.
-System memory in use after: 143.2 MB.
+System memory in use after: 143.3 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4165.
-Total: 4.429600 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.206900 ms MarkObjects: 3.668300 ms  DeleteObjects: 0.270300 ms)
+Total: 4.832700 ms (FindLiveObjects: 0.280100 ms CreateObjectMapping: 0.198000 ms MarkObjects: 4.071800 ms  DeleteObjects: 0.281200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,645 +136,271 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Full_New.prefab
-  artifactKey: Guid(cb058a679d674ff498f44b806185b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Full_New.prefab using Guid(cb058a679d674ff498f44b806185b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da257d184f29cfde521fc72a964d400') in 0.252573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door.prefab
-  artifactKey: Guid(bfaad59e6920a8e40be6c2670b7c5c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door.prefab using Guid(bfaad59e6920a8e40be6c2670b7c5c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d3c61ed9baaf3ff229f746aaa7b1b4') in 0.063112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Square Log_New.prefab
-  artifactKey: Guid(95912207be78d97489d179f9b2e675e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Square Log_New.prefab using Guid(95912207be78d97489d179f9b2e675e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf5cf1d7b80febb14ea72e526a2cf5c') in 0.018315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace.prefab
-  artifactKey: Guid(e99faa4dd71cbf94a950084bb36cb4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace.prefab using Guid(e99faa4dd71cbf94a950084bb36cb4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f756b46ee39ecc9a2bd7aa0e9a4fbb7') in 0.017810 seconds 
+  path: Assets/StartUpControl.cs
+  artifactKey: Guid(b78822477a5986e40b2e9443b06742e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartUpControl.cs using Guid(b78822477a5986e40b2e9443b06742e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844bd2c7036fa2d42715bbb72cfdc9c1') in 0.047394 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000207 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Square Log.prefab
-  artifactKey: Guid(82e3ebe75bab28744b4da9798933ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Square Log.prefab using Guid(82e3ebe75bab28744b4da9798933ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b06dbbcf7e749d2d19bdf20a02f2c4') in 0.014945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Bars.prefab
-  artifactKey: Guid(b5f3ae305e33b3143a417efe63c1958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Bars.prefab using Guid(b5f3ae305e33b3143a417efe63c1958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9aa06c493ab31e564a9b94a9728acf') in 0.014248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Log Pile.prefab
-  artifactKey: Guid(6c087ca6f4a849347862ff9d3a362ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Log Pile.prefab using Guid(6c087ca6f4a849347862ff9d3a362ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb2f80fc8c16d2815e40614f549263f') in 0.014485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Bars_New.prefab
-  artifactKey: Guid(8a2bbca61d849b1499d9b2d556cdc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Bars_New.prefab using Guid(8a2bbca61d849b1499d9b2d556cdc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3799dcd3705dc64901b1f444d166e1a2') in 0.020456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Log Pile_New.prefab
-  artifactKey: Guid(4bd000996f7fc464fa7cc1aad4f71c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Log Pile_New.prefab using Guid(4bd000996f7fc464fa7cc1aad4f71c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4142085fd83888d7f0f5276bd8de62') in 0.017819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace_New.prefab
-  artifactKey: Guid(25e33a73003213d459352a83a7be76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace_New.prefab using Guid(25e33a73003213d459352a83a7be76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d7fde741e024673c65175cc9874019') in 0.019710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Hanging Rack_New.prefab
-  artifactKey: Guid(24ab6226dee9d204d999b6b73c0e77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Hanging Rack_New.prefab using Guid(24ab6226dee9d204d999b6b73c0e77b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f250d9cdfd35020ff4c49f248bd11d02') in 0.025996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door_New.prefab
-  artifactKey: Guid(d8b1ae49e90960f468053df771d95008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door_New.prefab using Guid(d8b1ae49e90960f468053df771d95008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ae3fc01211127212f76c0c5726a047') in 0.016182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Hanging Rack.prefab
-  artifactKey: Guid(f6da58825a0200247b3b2f641e7545f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Hanging Rack.prefab using Guid(f6da58825a0200247b3b2f641e7545f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba06ebc943a2df4596f79a0f2718982c') in 0.014398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Blacksmith Full.prefab
-  artifactKey: Guid(1a3befe788845b04d8d0fe13a9e05acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Blacksmith Full.prefab using Guid(1a3befe788845b04d8d0fe13a9e05acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc131640751199d58a42fee59acabe03') in 0.016387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Full.prefab
-  artifactKey: Guid(5d83b7c1bf9c1864ebd4c0fd2cd0b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Furnace Door Full.prefab using Guid(5d83b7c1bf9c1864ebd4c0fd2cd0b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898960c5f7dbaa3022465593b5893865') in 0.012512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith
-  artifactKey: Guid(e3ea048537bc0154aa7dcee0ee609edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith using Guid(e3ea048537bc0154aa7dcee0ee609edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2534b28139c3162d86879051b22ca5') in 0.006522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Weapons, Tools
-  artifactKey: Guid(194eb85cd4418954f9daec4ece16caf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Weapons, Tools using Guid(194eb85cd4418954f9daec4ece16caf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c156554321847a07e3b9424959f020e') in 0.005485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Cooking Pole.prefab
-  artifactKey: Guid(d84c994c78232f44ab8255b9cbb23028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Cooking Pole.prefab using Guid(d84c994c78232f44ab8255b9cbb23028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad097002c6be725ac1d814d7778bd3b4') in 0.011691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs
-  artifactKey: Guid(0a2aaf90358e7c34ba0c26d9e8589bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs using Guid(0a2aaf90358e7c34ba0c26d9e8589bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f037d6db25920658e6221d8a17f4c33b') in 0.005208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Blacksmith Full_New.prefab
-  artifactKey: Guid(9249001ed999d1d4da603fd523a0de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Blacksmith Full_New.prefab using Guid(9249001ed999d1d4da603fd523a0de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f94c0fc849661175e425b755ebb0e66') in 0.018120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Cooking Pole_New.prefab
-  artifactKey: Guid(6aeb70da72157624f8c3111f879936c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Blacksmith/Cooking Pole_New.prefab using Guid(6aeb70da72157624f8c3111f879936c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf36291381b894884973df2394f3683') in 0.014200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.702494 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX
-  artifactKey: Guid(6730d58c110058247aaea5f0481e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX using Guid(6730d58c110058247aaea5f0481e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6c82ccc3143a11a62466536721d2fa') in 0.006478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061253 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Basic Sword.fbx
-  artifactKey: Guid(629befc78c3cf374e8bfd55be52cdf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Basic Sword.fbx using Guid(629befc78c3cf374e8bfd55be52cdf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbda87498b4d3209b7db8dfbbe3eaa1') in 0.101120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Castle Wall Top Ridges_1.fbx
-  artifactKey: Guid(ed5053aadcc1e244f8b0f9d63075eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Castle Wall Top Ridges_1.fbx using Guid(ed5053aadcc1e244f8b0f9d63075eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524b9b5613b33eb54406a2145be087d7') in 0.125208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Blacksmith Appliances.fbx
-  artifactKey: Guid(00d0b1b0be75d5d4b8910a4ee53e0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Blacksmith Appliances.fbx using Guid(00d0b1b0be75d5d4b8910a4ee53e0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3032fcc960155f1b3c789847d5cef2f') in 0.073276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Castle 1.fbx
-  artifactKey: Guid(950a899a61407f04692504e9f4a96075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Castle 1.fbx using Guid(950a899a61407f04692504e9f4a96075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f67a6770672dcae66d5ec9ddebd5468') in 0.062968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Castle Floor Set 1.fbx
-  artifactKey: Guid(d6c9cb6b44f050948abeb4b84596aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Castle Floor Set 1.fbx using Guid(d6c9cb6b44f050948abeb4b84596aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0227a8fe86f279f9e6315f2b6df855b5') in 0.050909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Castle Wall.fbx
-  artifactKey: Guid(4fecd5560aba7964a8742937aab6bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Castle Wall.fbx using Guid(4fecd5560aba7964a8742937aab6bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e006b1d33ee7b4631c8cc4dd7d6bdaa') in 0.025699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Toolkit.fbx
-  artifactKey: Guid(2e43571a8a2e94c4096a200ee1e67cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Toolkit.fbx using Guid(2e43571a8a2e94c4096a200ee1e67cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b4ae47dd1c46f3456ea40beaa8560e') in 0.112338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Castle Wall One Sided_1.fbx
-  artifactKey: Guid(90bda5a30777ed24abb3ef6a5dd40d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Castle Wall One Sided_1.fbx using Guid(90bda5a30777ed24abb3ef6a5dd40d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bb5268681a86502dc367901b1027f3') in 0.058537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/C_Monument_1.fbx
-  artifactKey: Guid(000703f0225e45542b77c5b3894260f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/C_Monument_1.fbx using Guid(000703f0225e45542b77c5b3894260f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9df6be48f7a3d3aece84c73596a5f05') in 0.060248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Small Stairs Basic.fbx
-  artifactKey: Guid(0109f0f01845af642af3618bcfe28673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Small Stairs Basic.fbx using Guid(0109f0f01845af642af3618bcfe28673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76da7c489b1ea387f5b7f73cffdc4d33') in 0.035242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.565739 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Texture
-  artifactKey: Guid(e3186b8baa8f99344a43d68b2b89a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Texture using Guid(e3186b8baa8f99344a43d68b2b89a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7717043b96216fba73d7b5b4c73b7706') in 0.010271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.704120 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle
-  artifactKey: Guid(4a2ac44c95c41b14da0664a8c6fda6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle using Guid(4a2ac44c95c41b14da0664a8c6fda6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b249b8fe715c5975154a5168f8e2aa02') in 0.008665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.075984 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/C_Monument_1.prefab
-  artifactKey: Guid(26549b7fab7c3c44f83df2c6b0d9f35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/C_Monument_1.prefab using Guid(26549b7fab7c3c44f83df2c6b0d9f35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412f8320386fd505a5bcb39047f789eb') in 0.015672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/C_Monument_1_New.prefab
-  artifactKey: Guid(2fa775ad257eea5419e49bfea56459f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/C_Monument_1_New.prefab using Guid(2fa775ad257eea5419e49bfea56459f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4b3b33d88a19b0c7d5fa6eba2fcecb') in 0.060769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Full Castle_New.prefab
-  artifactKey: Guid(b75d5ea986d785c4ea6139debe862089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Full Castle_New.prefab using Guid(b75d5ea986d785c4ea6139debe862089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94dd9e25b2ddbc05a947798b0ccd1f3') in 0.055509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_2_New.prefab
-  artifactKey: Guid(33d79ecdc4a00e548b463adb67a551cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_2_New.prefab using Guid(33d79ecdc4a00e548b463adb67a551cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed3c69384e99bf136a3bb9e4ce986c9') in 0.050877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 2.prefab
-  artifactKey: Guid(0ad573ef122e81c4181af0f137b71a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 2.prefab using Guid(0ad573ef122e81c4181af0f137b71a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebab0c78f8c7fa9d156d577517e043e3') in 0.024221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_1.prefab
-  artifactKey: Guid(ec8e70fa51b41e444b30f57adf2d80a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_1.prefab using Guid(ec8e70fa51b41e444b30f57adf2d80a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a8bf52586abd5391b282fb0488f1f8') in 0.028320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 2_New.prefab
-  artifactKey: Guid(f741cbf7ed67cef4da9d08dbbe0baa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 2_New.prefab using Guid(f741cbf7ed67cef4da9d08dbbe0baa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277024a1fdeefd189525503b30233304') in 0.019571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_3.prefab
-  artifactKey: Guid(981f3be55cf9ac847a442cff94afa69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_3.prefab using Guid(981f3be55cf9ac847a442cff94afa69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af1aeda1be818f6f6286d9b3e8435f0') in 0.020242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_3_New.prefab
-  artifactKey: Guid(83b1333d7d63c854f9fb6f256a0b3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_3_New.prefab using Guid(83b1333d7d63c854f9fb6f256a0b3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa458d89634cd1ce5a083567df80abb') in 0.023224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 1.prefab
-  artifactKey: Guid(43c244d9b4979dd498f4acf72b6e3efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 1.prefab using Guid(43c244d9b4979dd498f4acf72b6e3efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20eca1c387fbfe6ab243acfcceded5c') in 0.019420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Full Castle.prefab
-  artifactKey: Guid(0cd809d02bf1f25468dd52883876e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Full Castle.prefab using Guid(0cd809d02bf1f25468dd52883876e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd78082388d8acd671bbf8b69e8743c0') in 0.019984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall One Sided_1.prefab
-  artifactKey: Guid(55b2ee71af3e62a4e923116c9de2bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall One Sided_1.prefab using Guid(55b2ee71af3e62a4e923116c9de2bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c21e69398b183e8b7be091d12bfa17c') in 0.017538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 1_New.prefab
-  artifactKey: Guid(cb4ad399655d3c142a3add78b5e01774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Tower 1_New.prefab using Guid(cb4ad399655d3c142a3add78b5e01774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ebc488704539cc272526f207ef9d77') in 0.019836 seconds 
+  path: Assets/soundAssets
+  artifactKey: Guid(5f533a4f0e10f7741a69574140577acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soundAssets using Guid(5f533a4f0e10f7741a69574140577acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4279e15d8078ae36a8b39eb71b4414') in 0.011691 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000182 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall Top Ridges_1.prefab
-  artifactKey: Guid(b0cad2c1f51f643488d7f12c6967df74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall Top Ridges_1.prefab using Guid(b0cad2c1f51f643488d7f12c6967df74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f148ccc778e77e65b122f3a6f84d631f') in 0.014065 seconds 
+  path: Assets/soundAssets/NewAudioMixer.mixer
+  artifactKey: Guid(20e3b4152ed5ec74a955bd5eab71c050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soundAssets/NewAudioMixer.mixer using Guid(20e3b4152ed5ec74a955bd5eab71c050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8f43e779a1ab6de8db015f07b14dee') in 0.033007 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_1_New.prefab
-  artifactKey: Guid(92be89facb85ad94196127a348727246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_1_New.prefab using Guid(92be89facb85ad94196127a348727246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7577cd8fa0129b64e6fce3c8fb2d1a20') in 0.018365 seconds 
+  Time since last request: 29.362982 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1615d532dab169fd406a25610c85d83') in 0.006880 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_2.prefab
-  artifactKey: Guid(eb58b957e9f210f4ab782dc2044d4ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Floor_2.prefab using Guid(eb58b957e9f210f4ab782dc2044d4ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de3c2604959eacbfc19ed4f3637488d') in 0.016845 seconds 
+  Time since last request: 36.777490 seconds.
+  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Shaders
+  artifactKey: Guid(4efedd9762ac9ee4fb762c0e85819e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Shaders using Guid(4efedd9762ac9ee4fb762c0e85819e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db51b2a18c8720b3dd8e515384525eba') in 0.008962 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Gatehouse_New.prefab
-  artifactKey: Guid(54a15f89fea90c649813834c6b485bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Gatehouse_New.prefab using Guid(54a15f89fea90c649813834c6b485bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a57cee9e2825e3a24ccf2235d05f51') in 0.021677 seconds 
+  Time since last request: 1.381232 seconds.
+  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Shaders/HDRP
+  artifactKey: Guid(0c55f2da8ded9e84396dd65e632593f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Shaders/HDRP using Guid(0c55f2da8ded9e84396dd65e632593f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5994d4d24f596681dda40b3e5927c2') in 0.002866 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Gatehouse.prefab
-  artifactKey: Guid(d39d597ebf9fea44bbe39b78ba8c1b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Gatehouse.prefab using Guid(d39d597ebf9fea44bbe39b78ba8c1b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d5d9a1f0a6d0a42c87d79b1a700562') in 0.019967 seconds 
+  Time since last request: 2.587808 seconds.
+  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Shaders/HDRP/HDRP_TreeLeafSwitcher.shader
+  artifactKey: Guid(46c512628cf462e4ea6760fcdc89f889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Shaders/HDRP/HDRP_TreeLeafSwitcher.shader using Guid(46c512628cf462e4ea6760fcdc89f889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed39f04e17791de26f422744c60524f') in 0.009064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.828976 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Bridge New Normal.png
+  artifactKey: Guid(4c8df94559128d0438aa9541dc15a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Bridge New Normal.png using Guid(4c8df94559128d0438aa9541dc15a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00fa960df41e0939b4af50eb43c05cd') in 0.124164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV.png
+  artifactKey: Guid(22627aa8b75827947ba4bd27ce9681a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV.png using Guid(22627aa8b75827947ba4bd27ce9681a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81db7a4444a7a84d52fa86f6f81f5150') in 0.018855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV New Occlusion.png
+  artifactKey: Guid(baaad61d3171ead4c8fe9f4d121d2c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV New Occlusion.png using Guid(baaad61d3171ead4c8fe9f4d121d2c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbde2af58c085f3fc4166d60f7bfdfd7') in 0.022718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV New Occlusion.png
+  artifactKey: Guid(ddff383151949414cb0072b1ec981888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV New Occlusion.png using Guid(ddff383151949414cb0072b1ec981888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e60639913146c3f5e6b8f16fb372e4') in 0.017571 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000173 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall One Sided_1_New.prefab
-  artifactKey: Guid(c80b398710b58654bb57ade326959d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall One Sided_1_New.prefab using Guid(c80b398710b58654bb57ade326959d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1201f074455a1feac16f57dd4a0aca84') in 0.019834 seconds 
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Bridge.png
+  artifactKey: Guid(c065350b5f2429f4391629273b5b1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Bridge.png using Guid(c065350b5f2429f4391629273b5b1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c8e43d9e698d2c3be0dbeb1e24a95d') in 0.013361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 1.prefab
-  artifactKey: Guid(435e0e335035e3f47b6cb073d9957c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 1.prefab using Guid(435e0e335035e3f47b6cb073d9957c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67006c88307ad40895c7ed5dd613d1') in 0.017134 seconds 
+  Time since last request: 0.000173 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV 2.png
+  artifactKey: Guid(a349f27054f810441b1ac10c73e23cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV 2.png using Guid(a349f27054f810441b1ac10c73e23cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e079700f22115893929d9efdf0bb986') in 0.014579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV New.png
+  artifactKey: Guid(ea45f34eeb60bc94b86777e7de9ad3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV New.png using Guid(ea45f34eeb60bc94b86777e7de9ad3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58452da7650cf2f706d68c82f3f445a5') in 0.016538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV New Normal.png
+  artifactKey: Guid(331bf794036a3724cb369a39aef6989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV New Normal.png using Guid(331bf794036a3724cb369a39aef6989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba2f472cd3942947f66268ffd91f843') in 0.016899 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000160 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall Top Ridges_1_New.prefab
-  artifactKey: Guid(1def6440634bff4409a7f127c3a79623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Castle Wall Top Ridges_1_New.prefab using Guid(1def6440634bff4409a7f127c3a79623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b1b617e70f3ccd519c6716448948c2') in 0.021415 seconds 
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV New Normal.png
+  artifactKey: Guid(b9c2e6c965f9455459476c2c5f841c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Set UV New Normal.png using Guid(b9c2e6c965f9455459476c2c5f841c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fb4f3c0a0e24709051a2266103c5f9') in 0.017980 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.037424 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 1_New.prefab
-  artifactKey: Guid(59aeb7cf1c26b124796f7190b1ffe1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 1_New.prefab using Guid(59aeb7cf1c26b124796f7190b1ffe1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2074181018b015e53503a4a2077ce8b8') in 0.018241 seconds 
+  Time since last request: 0.000182 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV New.png
+  artifactKey: Guid(7abee8041be69724fb90a466f02c69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV New.png using Guid(7abee8041be69724fb90a466f02c69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903659e6f42c6ed51c186ef868524101') in 0.017998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 2.prefab
-  artifactKey: Guid(be9049449b0d71a4e8628c0c60a5dd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 2.prefab using Guid(be9049449b0d71a4e8628c0c60a5dd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc5578eaddf5116c8aa149e008bcf8b') in 0.039813 seconds 
+  Time since last request: 0.000160 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Bridge New Occlusion.png
+  artifactKey: Guid(5c9c3cd3aef64b547be44604b87aa403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Bridge New Occlusion.png using Guid(5c9c3cd3aef64b547be44604b87aa403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3ffc9a46c80f326f76bd29617b16ba') in 0.017946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 2_New.prefab
-  artifactKey: Guid(90b23498c82f0de429849deccf28edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/Prefabs/Castle/Wall 2_New.prefab using Guid(90b23498c82f0de429849deccf28edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f46c9477f4ea56155aeed657afa3e1c') in 0.026619 seconds 
+  Time since last request: 0.000146 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Bridge New.png
+  artifactKey: Guid(1233d8fcf7dd4c949a8e79635d688d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Bridge New.png using Guid(1233d8fcf7dd4c949a8e79635d688d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e2671b30366f64e91dff91334bbb23') in 0.016551 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.663227 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials
-  artifactKey: Guid(b17c18d187045cc46a177cd3a8f765e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials using Guid(b17c18d187045cc46a177cd3a8f765e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e555fcc1576894a7ac2b85843a15499') in 0.006387 seconds 
+  Time since last request: 0.000183 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV 3.png
+  artifactKey: Guid(eff170ab9a4ff5244b1f29a2c940d77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Castle Towers UV 3.png using Guid(eff170ab9a4ff5244b1f29a2c940d77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443f67f08cc5ea6653e5b0b6c6001dcc') in 0.018664 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062023 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Basic Stairs UV.mat
-  artifactKey: Guid(ff9b173255fea2d479a6326b1669b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Basic Stairs UV.mat using Guid(ff9b173255fea2d479a6326b1669b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257d7fa7b90e83b5159f9ef2bce4317a') in 0.032445 seconds 
+  Time since last request: 23.746414 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Hand Painted
+  artifactKey: Guid(e7402a1bc99ac8e4a9e5267ca423f444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Hand Painted using Guid(e7402a1bc99ac8e4a9e5267ca423f444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef64a26bca3fdbb9e32fbb901ae7255') in 0.007651 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Castle Walls UV.mat
-  artifactKey: Guid(845f80fe2c025e4488a27460a69ce448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Castle Walls UV.mat using Guid(845f80fe2c025e4488a27460a69ce448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2343935b9a927ca2c13fc0254f6990a5') in 0.018746 seconds 
+  Time since last request: 0.061135 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Hand Painted/Brick_1.png
+  artifactKey: Guid(363e5d9bbb0bcc147bed879482d0cd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Hand Painted/Brick_1.png using Guid(363e5d9bbb0bcc147bed879482d0cd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44424e593beda4dfce1678085c94fc44') in 0.026926 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Basic Sword UV.mat
-  artifactKey: Guid(395a6105ef2751040b6926021207db49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Basic Sword UV.mat using Guid(395a6105ef2751040b6926021207db49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fd172ab7e8902eb424f52b140ea6a4') in 0.019619 seconds 
+  Time since last request: 0.000293 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Hand Painted/Brick_1_Tiled_2x2.png
+  artifactKey: Guid(f93ef4483fb212149997b3655bb851c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Hand Painted/Brick_1_Tiled_2x2.png using Guid(f93ef4483fb212149997b3655bb851c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbb4b98304d17bf4981a81a7bdb4ced') in 0.034211 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Castle Towers UV 2.mat
-  artifactKey: Guid(0eba23aa4dc6dc84fac47f6229d7dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Castle Towers UV 2.mat using Guid(0eba23aa4dc6dc84fac47f6229d7dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5685a8ef4828c2a9f61a0d718d46247') in 0.018789 seconds 
+  Time since last request: 3.599581 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Materials
+  artifactKey: Guid(7523fc234ad40714db5efc789341baa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Materials using Guid(7523fc234ad40714db5efc789341baa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be73db7c71f2f3e168ee7a8ffb80d4') in 0.002828 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Castle Set UV.mat
-  artifactKey: Guid(b77490fc4a8e1014cbce940a3d431a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Castle Set UV.mat using Guid(b77490fc4a8e1014cbce940a3d431a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92986b6c362c5661c455ef9e7df05c62') in 0.017934 seconds 
+  Time since last request: 0.057830 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Bridge New.mat
+  artifactKey: Guid(e9310c3a85232b3468eec9f98db6acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Bridge New.mat using Guid(e9310c3a85232b3468eec9f98db6acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350c541be93b1f6690bf2ddb8ac2e759') in 0.046392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Toolkit UV.mat
-  artifactKey: Guid(82f56cbdc751f6542ad1bd3a745955d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Toolkit UV.mat using Guid(82f56cbdc751f6542ad1bd3a745955d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ced1437f124e502bb745da352906d56') in 0.018830 seconds 
+  Time since last request: 0.000286 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Castle Towers UV New.mat
+  artifactKey: Guid(538cfdcd60ac55941b952ff4f59989b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Castle Towers UV New.mat using Guid(538cfdcd60ac55941b952ff4f59989b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06729fedd493fa06ccfddc1c6b6de3ab') in 0.022701 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Bridge.mat
-  artifactKey: Guid(a3bb011b1ddf2e34a846de943405a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Castle 1 LITE/FBX/Materials/Bridge.mat using Guid(a3bb011b1ddf2e34a846de943405a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9162933fb025ff2f284d22401d984c45') in 0.016702 seconds 
+  Time since last request: 0.000265 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Castle Set UV.mat
+  artifactKey: Guid(9a7112e96cbd1ab41a1c7131d7fd0a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Castle Set UV.mat using Guid(9a7112e96cbd1ab41a1c7131d7fd0a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9cad41aad79a5e62097048470c0521') in 0.020017 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.000504 seconds.
-  path: Assets/OtherAssets/FantasyMonster
-  artifactKey: Guid(cc42d68fbb1ff1b4e87a6e048f151d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/FantasyMonster using Guid(cc42d68fbb1ff1b4e87a6e048f151d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08664f5d126c5e8c4f612b99177a72db') in 0.006319 seconds 
+  Time since last request: 0.000294 seconds.
+  path: Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Castle Set UV New.mat
+  artifactKey: Guid(a63a05860f08fc04787a0cdf3f09e4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Castle 1 LITE/Texture/Materials/Castle Set UV New.mat using Guid(a63a05860f08fc04787a0cdf3f09e4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e994bd71cabdebc429703faee8e9ad7') in 0.017845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.023642 seconds.
-  path: Assets/OtherAssets/FantasyMonster/Skeleton
-  artifactKey: Guid(97fd88197a332c34f927f0eb492d9554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/FantasyMonster/Skeleton using Guid(97fd88197a332c34f927f0eb492d9554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021246c61e7699ef1772bd20f401b5c3') in 0.006715 seconds 
+  Time since last request: 10.147282 seconds.
+  path: Assets/OtherAssets/DungeonCharacters/Skeletons_demo/models
+  artifactKey: Guid(ab7e5a7d6fa592143a6100a78badb465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/DungeonCharacters/Skeletons_demo/models using Guid(ab7e5a7d6fa592143a6100a78badb465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77032d63a2ba38ce84884d0991330c2d') in 0.007965 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 439.547840 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeA.prefab
-  artifactKey: Guid(0cf5b7d40deaade44a6ba4686f06ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeA.prefab using Guid(0cf5b7d40deaade44a6ba4686f06ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON _ALPHATEST_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON _ALPHATEST_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
- -> (artifact id: 'd71b177173c51ef41832094998ac81f5') in 0.065661 seconds 
+  Time since last request: 0.054548 seconds.
+  path: Assets/OtherAssets/DungeonCharacters/Skeletons_demo/models/DungeonSkeleton_demo.FBX
+  artifactKey: Guid(f227b5017a7c0184a96c2c26f1e4408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/DungeonCharacters/Skeletons_demo/models/DungeonSkeleton_demo.FBX using Guid(f227b5017a7c0184a96c2c26f1e4408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5a31e9b24986b36c3121860a2681dd') in 0.090116 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeB.prefab
-  artifactKey: Guid(289c1cfb4a683df4f8e00f4884b82faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeB.prefab using Guid(289c1cfb4a683df4f8e00f4884b82faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
- -> (artifact id: '81a49cad9e5c21eab3cc146fbd8c3c7a') in 0.106093 seconds 
+  Time since last request: 74.401753 seconds.
+  path: Assets/OtherAssets/Rock Package/Mesh
+  artifactKey: Guid(3a4980857462e7a4381538657cdc14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Mesh using Guid(3a4980857462e7a4381538657cdc14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee85146bc80670a3699276a6c20fbbb') in 0.008830 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeC_Test.prefab
-  artifactKey: Guid(0c5f566d821df824ba835f9dddf40bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeC_Test.prefab using Guid(0c5f566d821df824ba835f9dddf40bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
- -> (artifact id: '8eb3ea5660c449718f00704e2b24258f') in 0.074650 seconds 
+  Time since last request: 0.043443 seconds.
+  path: Assets/OtherAssets/Rock Package/Mesh/Rock_01.FBX
+  artifactKey: Guid(f5df519d22979c248a77eadf5651b327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Mesh/Rock_01.FBX using Guid(f5df519d22979c248a77eadf5651b327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbe1bcb52b3442bc18ea4c44dc04f65') in 0.078336 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.609202 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP
-  artifactKey: Guid(bde9b643aadfbb74a8c78b769973dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP using Guid(bde9b643aadfbb74a8c78b769973dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18f20d549f391a39aca0b8813a8061b') in 0.006261 seconds 
+  Time since last request: 0.000304 seconds.
+  path: Assets/OtherAssets/Rock Package/Mesh/Rock_06.FBX
+  artifactKey: Guid(476d7e24f53ccf641805646d05f61bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Mesh/Rock_06.FBX using Guid(476d7e24f53ccf641805646d05f61bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce03bf6c07f69d412a7f47ae28e458d6') in 0.044791 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.045664 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/Grass.mat
-  artifactKey: Guid(c739edd8d8509ea41a8086ad3451fd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/Grass.mat using Guid(c739edd8d8509ea41a8086ad3451fd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5c4d5e970475511020fd81e6f6a6e7') in 0.028147 seconds 
+  Time since last request: 0.000259 seconds.
+  path: Assets/OtherAssets/Rock Package/Mesh/Rock_04.FBX
+  artifactKey: Guid(6013a9231cbf28447817bbf406307ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Mesh/Rock_04.FBX using Guid(6013a9231cbf28447817bbf406307ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e8ea1f915378520f5ea8bb35261cbe') in 0.045965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/OtherAssets/Rock Package/Mesh/Rock_05.FBX
+  artifactKey: Guid(d27239c9a7de0f243876d949bb27027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Mesh/Rock_05.FBX using Guid(d27239c9a7de0f243876d949bb27027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46ae41a5841b78503eb7882a83bb3cf') in 0.045476 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000309 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/SkyMat.mat
-  artifactKey: Guid(2ebe7619eeb8d2b409ae3343aa730e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/SkyMat.mat using Guid(2ebe7619eeb8d2b409ae3343aa730e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027944620593796d93ad6005fc9b44d6') in 0.119907 seconds 
+  path: Assets/OtherAssets/Rock Package/Mesh/Rock_03.FBX
+  artifactKey: Guid(48320e7576ce0664eb501ebbd6c815da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Mesh/Rock_03.FBX using Guid(48320e7576ce0664eb501ebbd6c815da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b076b2a2eb56a76363a496ef5df65d0') in 0.048821 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeLeavesIJKL_AS.mat
-  artifactKey: Guid(2505223071da93d40ba610651fdb0bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeLeavesIJKL_AS.mat using Guid(2505223071da93d40ba610651fdb0bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0340f041a333cbb096282bfd698dc8') in 0.028441 seconds 
+  Time since last request: 0.000332 seconds.
+  path: Assets/OtherAssets/Rock Package/Mesh/Rock_02.FBX
+  artifactKey: Guid(05e04fedc78047c48af519e94c595e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Mesh/Rock_02.FBX using Guid(05e04fedc78047c48af519e94c595e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b493ce111707ba99d584aeccdd497ab7') in 0.050062 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeBarkCD.mat
-  artifactKey: Guid(33e561d917c7cd94695961036c7c82ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeBarkCD.mat using Guid(33e561d917c7cd94695961036c7c82ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c126654bad3f603da3dd6eb52104a98') in 0.040075 seconds 
+  Time since last request: 72.917372 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials
+  artifactKey: Guid(c8ad7dd96642e004ab5e70ba89eb8fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials using Guid(c8ad7dd96642e004ab5e70ba89eb8fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a32ddf6235684d607e44f82382fb6a') in 0.007653 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeLeavesEFGH_AS.mat
-  artifactKey: Guid(d77095f25fd349143ad060a2323cd688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeLeavesEFGH_AS.mat using Guid(d77095f25fd349143ad060a2323cd688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a642eba9e864c1bda51f15d76e9406f8') in 0.033253 seconds 
+  Time since last request: 0.025419 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials/M_Ground.mat
+  artifactKey: Guid(85dc2b26bc1135343bd736d565a88161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials/M_Ground.mat using Guid(85dc2b26bc1135343bd736d565a88161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ef1853da6a3103187f006693cc02e7') in 0.122690 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeBarkAB.mat
-  artifactKey: Guid(c1b197fcd2897914a9f607e05abbe0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeBarkAB.mat using Guid(c1b197fcd2897914a9f607e05abbe0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dac670f39a0a76b184e7a167137ead') in 0.024249 seconds 
+  Time since last request: 0.000280 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials/M_Rock_06.mat
+  artifactKey: Guid(f5599d5d17120464db2c0674944061c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials/M_Rock_06.mat using Guid(f5599d5d17120464db2c0674944061c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dac89d8a3af39a3ae2a9ab3ee838478') in 0.030115 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeLeavesABCD_AS.mat
-  artifactKey: Guid(f897e123ebc370b46ab0046d7016f513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/SRP/TreeLeavesABCD_AS.mat using Guid(f897e123ebc370b46ab0046d7016f513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f433aaae3a711803ab61e6f5a017a0b') in 0.022218 seconds 
+  Time since last request: 0.000212 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials/M_Rock_03.mat
+  artifactKey: Guid(4315922abf0d24d4285a748c6c798aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials/M_Rock_03.mat using Guid(4315922abf0d24d4285a748c6c798aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee70d7a37536bf833e6058bca51e737') in 0.022992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.912116 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP
-  artifactKey: Guid(69966848407fa3e479ad2ac807fbfa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP using Guid(69966848407fa3e479ad2ac807fbfa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dc917171558732cba283225334b5e6') in 0.008428 seconds 
+  Time since last request: 0.000207 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials/M_Rock_04.mat
+  artifactKey: Guid(993ea6d041b161944bea82c42d63f696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials/M_Rock_04.mat using Guid(993ea6d041b161944bea82c42d63f696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52dbb78789a8f66cc4512a04e5f846a') in 0.022783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.025008 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/Grass_HDRP.mat
-  artifactKey: Guid(e1bb303b810f2674782997c5f1a89f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/Grass_HDRP.mat using Guid(e1bb303b810f2674782997c5f1a89f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff78385ec240878193aeab8a84881aa') in 0.019616 seconds 
+  Time since last request: 0.000213 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials/M_Rock_02.mat
+  artifactKey: Guid(dc6cb5217a6b4604c98072452f4c24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials/M_Rock_02.mat using Guid(dc6cb5217a6b4604c98072452f4c24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08689a0b7e78f230ccc4c7151cc9cf07') in 0.022121 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeLeavesEFGH_AS_HDRP.mat
-  artifactKey: Guid(53799e5bbdfea7648a3836ed92abbe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeLeavesEFGH_AS_HDRP.mat using Guid(53799e5bbdfea7648a3836ed92abbe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
- -> (artifact id: 'f251df303ee0093a72a91de08c936083') in 0.034979 seconds 
+  Time since last request: 0.000263 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials/M_Rock_01.mat
+  artifactKey: Guid(629f1c618eae4db4b9db2f7f4c102b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials/M_Rock_01.mat using Guid(629f1c618eae4db4b9db2f7f4c102b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de7d86fedbe49fbb8332ff0b2d4b7cc') in 0.020848 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeBarkAB_HDRP.mat
-  artifactKey: Guid(4f4ba0456ff5d504ba88c52a77c78107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeBarkAB_HDRP.mat using Guid(4f4ba0456ff5d504ba88c52a77c78107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
- -> (artifact id: 'ee2853472dd233fcf5ac200379b3cbff') in 0.028625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/SkyMat_HDRP.mat
-  artifactKey: Guid(15276af68def8ee4290867b6fe106f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/SkyMat_HDRP.mat using Guid(15276af68def8ee4290867b6fe106f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d106a1b8a9113a390ac62f43fbe30c') in 0.023614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeBarkCD_HDRP.mat
-  artifactKey: Guid(8f795a0d2113b2849aecb6b904fdbeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeBarkCD_HDRP.mat using Guid(8f795a0d2113b2849aecb6b904fdbeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
- -> (artifact id: '67282ff71b4799b9624499fb5f94ff71') in 0.030616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeLeavesIJKL_AS_HDRP.mat
-  artifactKey: Guid(2e7cf165974688743a73efd76c8bbc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeLeavesIJKL_AS_HDRP.mat using Guid(2e7cf165974688743a73efd76c8bbc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
- -> (artifact id: '7ec36af85ef22b36e70ca7cf541e0f8b') in 0.027336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeLeavesABCD_AS_HDRP.mat
-  artifactKey: Guid(ec5e30347b2ec2045a28a22096c58a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Materials/HDRP/TreeLeavesABCD_AS_HDRP.mat using Guid(ec5e30347b2ec2045a28a22096c58a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON _ALPHATEST_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
-
-Compiling Vertex program with INSTANCING_ON _ALPHATEST_ON
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
- -> (artifact id: '569febb2909d66a4ec66a04e5876702d') in 0.028946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.027567 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Scenes
-  artifactKey: Guid(ff0627a4dc85da64e88aa78d0826b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Scenes using Guid(ff0627a4dc85da64e88aa78d0826b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be15673c351b2f28aa707d7ecff63f2a') in 0.006414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.817259 seconds.
-  path: Assets/OtherAssets/Trees_WorldSpace_FREE/Scenes/WorldSpaceTrees-Demo.unity
-  artifactKey: Guid(2dcce9d9479734a40b1bf360c6b1b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Trees_WorldSpace_FREE/Scenes/WorldSpaceTrees-Demo.unity using Guid(2dcce9d9479734a40b1bf360c6b1b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c88f3551546f7f16903ebf8fa6318f2') in 0.006936 seconds 
+  Time since last request: 0.000153 seconds.
+  path: Assets/OtherAssets/Rock Package/Materials/M_Rock_05.mat
+  artifactKey: Guid(c3bb3860b394e414bb3935cbf8620390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Rock Package/Materials/M_Rock_05.mat using Guid(c3bb3860b394e414bb3935cbf8620390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e48dde838acb821b916767834288d5') in 0.020173 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

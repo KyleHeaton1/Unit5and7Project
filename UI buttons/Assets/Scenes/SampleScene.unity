@@ -10100,36 +10100,36 @@ MonoBehaviour:
   sounds:
   - name: Click1
     clip: {fileID: 8300000, guid: a6908273ae78e7445a63a2e4e90e10ca, type: 3}
-    volume: 1
+    volume: 0.12
     pitch: 1
     loop: 0
     outputAudioMixerGroup: {fileID: 4806786747355179395, guid: 5c88300041eeabf469602ed18d73fbad, type: 2}
     source: {fileID: 0}
   - name: Click2
     clip: {fileID: 8300000, guid: a6908273ae78e7445a63a2e4e90e10ca, type: 3}
-    volume: 1
+    volume: 0.12
     pitch: 1
     loop: 0
     outputAudioMixerGroup: {fileID: 4806786747355179395, guid: 5c88300041eeabf469602ed18d73fbad, type: 2}
     source: {fileID: 0}
   - name: Click3
-    clip: {fileID: 8300000, guid: 32aac268ca0ea3049b5080b831f5cbca, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: a8c63a60022875e4692b907e0d374869, type: 3}
+    volume: 0.12
     pitch: 1
     loop: 0
     outputAudioMixerGroup: {fileID: 4806786747355179395, guid: 5c88300041eeabf469602ed18d73fbad, type: 2}
     source: {fileID: 0}
   - name: Click4
-    clip: {fileID: 8300000, guid: 32aac268ca0ea3049b5080b831f5cbca, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: a8c63a60022875e4692b907e0d374869, type: 3}
+    volume: 0.12
     pitch: 1
     loop: 0
     outputAudioMixerGroup: {fileID: 4806786747355179395, guid: 5c88300041eeabf469602ed18d73fbad, type: 2}
     source: {fileID: 0}
   music:
   - name: Music1
-    clip: {fileID: 8300000, guid: a54b2c58274e01b4c8dcdf2661bfa9f4, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: 7940009fc6865c34a8b179a5942b0728, type: 3}
+    volume: 0.104
     pitch: 1
     loop: 1
     outputAudioMixerGroup: {fileID: -1948825671018581578, guid: 5c88300041eeabf469602ed18d73fbad, type: 2}
